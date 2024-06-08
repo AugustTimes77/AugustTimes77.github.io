@@ -8,12 +8,26 @@ body {
     min-height: 100vh;
 }
 
-h1, h2, h3, h4, p {
+h1{
     color: white;
+    margin-top: 50px;
+}
+
+h2{
+    color: white
 }
 
 h3{
-    font-size: 25px;
+    color:white;
+}
+
+h4{
+    color: white
+}
+
+p{
+    color: white;
+    font-size: 17px;
 }
 
 li {
@@ -36,6 +50,8 @@ header {
 hr {
     border: 1px dashed white;
     width: 60%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 img{
@@ -46,6 +62,8 @@ img{
 
 
 .project-left{
+    border-radius: 15px;
+    background-color: #1b1b17;
     padding: 25px 100px 25px 100px;
     align-items: left;
 }
@@ -55,11 +73,12 @@ img{
 }
 
 .project-left p {
-    
     font-size: 20px;
 }
 
 .project-right{
+    border-radius: 15px;
+    background-color: #1b1b17;
     padding: 25px 100px 25px 100px;
 }
 
@@ -109,7 +128,7 @@ header nav ul li a {
 
 .header-items{
     font-size: 20px;
-    margin-left: 15px;
+    margin: 10px 0px 10px 0px;
 }
 
 
