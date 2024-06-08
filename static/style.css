@@ -2,15 +2,15 @@ body {
     background-color: #272823;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman';
 }
 
 h1, h2, p {
     color: white;
 }
 
-main {
-    padding-top: 10px;
+#main-content{
+    padding: 20px;
 }
 
 header {
@@ -58,10 +58,14 @@ a:visited{
 
 #footer {
     position: fixed;
-    margin-right: 25px;
     right: 0;
     bottom: 0;
     width: 100%;
+    border-top: 2px dashed white;
+}
+
+#footer ul {
+    margin-right: 25px;
     text-align: right;
     color: white;
 }
