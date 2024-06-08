@@ -3,14 +3,26 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-h1, h2, p {
+h1, h2, h3, h4, p {
+    color: white;
+}
+
+h3{
+    font-size: 25px;
+}
+
+li {
     color: white;
 }
 
 #main-content{
-    padding: 20px;
+    padding: 0px 40px 0px 40px;
+    flex: 1;
 }
 
 header {
@@ -20,6 +32,59 @@ header {
     justify-content: space-between;
     border-bottom: 2px dashed white;
 }
+
+hr {
+    border: 1px dashed white;
+    width: 60%;
+}
+
+img{
+    max-height: 450px;
+}
+
+/* project section */
+
+
+.project-left{
+    padding: 25px 100px 25px 100px;
+    align-items: left;
+}
+
+.project-left h2 {
+    text-decoration: underline;
+}
+
+.project-left p {
+    
+    font-size: 20px;
+}
+
+.project-right{
+    padding: 25px 100px 25px 100px;
+}
+
+.project-right h2 {
+    text-align: right;
+    text-decoration: underline;
+}
+
+.project-right p {
+    font-size: 20px;
+}
+
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+
+
+/* project section */
 
 header h1 {
     margin: 0;
@@ -42,10 +107,11 @@ header nav ul li a {
     font-size: 25px;
 }
 
-a {
+.header-items{
     font-size: 20px;
     margin-left: 15px;
 }
+
 
 a:link{
     text-decoration: none;
@@ -57,7 +123,6 @@ a:visited{
 }
 
 #footer {
-    position: fixed;
     right: 0;
     bottom: 0;
     width: 100%;
