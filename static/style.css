@@ -54,52 +54,41 @@ hr {
     margin-bottom: 25px;
 }
 
-img{
-    max-height: 450px;
-}
 
 /* project section */
 
 
-.project-left{
+.project{
     border-radius: 15px;
     background-color: #1b1b17;
-    padding: 25px 100px 25px 100px;
+    padding: 5px 25px 5px 25px;
     align-items: left;
 }
 
-.project-left h2 {
+.project h2 {
     text-decoration: underline;
 }
 
-.project-left p {
+.project p {
     font-size: 20px;
 }
 
-.project-right{
-    border-radius: 15px;
-    background-color: #1b1b17;
-    padding: 25px 100px 25px 100px;
-}
-
-.project-right h2 {
-    text-align: right;
-    text-decoration: underline;
-}
-
-.project-right p {
-    font-size: 20px;
-}
 
 div.scroll-container {
-    background-color: #333;
+    background-color: transparent;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
   }
   
+  div.scroll-container div.blogpost{
+    padding: 10px;
+  }
+
   div.scroll-container img {
     padding: 10px;
+    width: auto;
+    height: 250px;
   }
 
 
@@ -132,12 +121,13 @@ header nav ul li a {
 }
 
 
+a:hover{
+    color:steelblue;
+}
 a:link{
     text-decoration: none;
-    color:lightblue;
 }
 a:visited{
-    color: steelblue;
     text-decoration: none;
 }
 
